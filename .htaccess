@@ -1,0 +1,10 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
+
