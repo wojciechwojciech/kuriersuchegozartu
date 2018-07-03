@@ -2,7 +2,7 @@ version: 0.0.{build}
 
 platform:
   - x64
-GH_TOKEN:	      secure: 182aa03f15e7baf7cfb4055fbc65f90b72cb03e5
+  
 cache:
   - node_modules
   - app\node_modules
