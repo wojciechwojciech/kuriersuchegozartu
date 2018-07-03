@@ -2,7 +2,8 @@
 	"name": "KurierSuchegoZartu",
   "version": "0.0.2",
   "main": "main.js",
-  "author": "github.com/wojciechwojciech",
+	"author": "github.com/wojciechwojciech",
+	"copyright":"Copyright © 2018 WojtekWojtek",
   "description": "Aplikacja stworzona w oparciu o technologię ElectronJS (https://electronjs.org/)",
 	"scripts": {
 		"release": "build"
