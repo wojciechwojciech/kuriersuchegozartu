@@ -2,7 +2,7 @@ version: 0.0.{build}
 
 platform:
   - x64
-
+image: Visual Studio 2017
 cache:
   - node_modules
   - app\node_modules
