@@ -1,0 +1,38 @@
+{
+	"name": "KurierSuchegoZartu",
+  "version": "0.0.2",
+  "main": "main.js",
+  "author": "github.com/wojciechwojciech",
+  "description": "Aplikacja stworzona w oparciu o technologię ElectronJS (https://electronjs.org/)",
+	"scripts": {
+		"release": "build"
+	},
+	"repository": "https://github.com/wojciechwojciech/kuriersuchegozartu",
+	"devDependencies": {
+    "electron": "^2.0.3",
+		"electron-builder": "10.5.0"
+	},
+	"dependencies": {
+		"electron-auto-updater": "0.6.2"
+	},
+	"build": {
+    "appId": "com.electron.kurier",
+    "icon": "img/icon.ico",
+    "productName": "KurierSuchegoZartu",
+    "asar":true,
+		"linux": {
+			"target": [
+				"deb"
+			]
+		},
+		"publish": {
+			"provider": "github"
+		},
+		"win": {
+			"publish": [
+				"github"
+			],
+			"remoteReleases": "https://github.com/wojciechwojciech/kuriersuchegozartu"
+		}
+	}
+}
