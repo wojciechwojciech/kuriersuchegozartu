@@ -5,13 +5,10 @@ platform:
   ################
   extraMetadata:
   main: main.js
-extraResources:
-  - from: static
-    to: static
 productName: Suzy
-appId: com.electron.kurier
-asar: true
-compression: maximum 
+appId: io.adlk.suzy
+asar: false
+compression: maximum
 
 ##################
 cache:
