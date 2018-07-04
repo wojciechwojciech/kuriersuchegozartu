@@ -3,7 +3,7 @@ version: 0.0.{build}
 platform:
   - x64
   ################
-  main: main.js
+
 productName: KurierSuchegoZartu
 appId: com.electron.kurier
 asar: true
