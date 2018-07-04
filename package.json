@@ -1,9 +1,8 @@
 {
 	"name": "KurierSuchegoZartu",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "main": "main.js",
 	"author": "github.com/wojciechwojciech",
-	"license": "",
 	"homepage": "https://github.com/wojciechwojciech",
 	"license":"Apache-2.0",
 	"copyright":"Copyright © 2018 WojtekWojtek",
@@ -29,6 +28,9 @@
 			"provider": "github"
 		},
 		"remoteReleases": "https://github.com/wojciechwojciech/kuriersuchegozartu"
+	},
+	"nsis": {
+		"createDesktopShortcut": "always"
 	},
 	"dmg": {
 		"contents": [
