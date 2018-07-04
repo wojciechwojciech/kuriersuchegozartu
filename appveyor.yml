@@ -2,13 +2,7 @@ version: 0.0.{build}
 
 platform:
   - x64
-  ################
 
-productName: "KurierSuchegoZartu"
-appId: com.electron.kurier
-asar: true
-
-##################
 cache:
   - node_modules
   - app\node_modules
