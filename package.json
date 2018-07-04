@@ -32,11 +32,7 @@
 		"publish": {
 			"provider": "github"
 		},
-		"win": {
-			"publish": [
-				"github"
-			],
-			"remoteReleases": "https://github.com/wojciechwojciech/kuriersuchegozartu"
+		"remoteReleases": "https://github.com/wojciechwojciech/kuriersuchegozartu"
 		}
 	}
 }
