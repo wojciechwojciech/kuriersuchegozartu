@@ -3,11 +3,10 @@ version: 0.0.{build}
 platform:
   - x64
   ################
-  extraMetadata:
   main: main.js
-productName: Suzy
-appId: io.adlk.suzy
-asar: false
+productName: KurierSuchegoZartu
+appId: com.electron.kurier
+asar: true
 compression: maximum
 
 ##################
