@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "main": "main.js",
 	"author": "github.com/wojciechwojciech",
+	"license": "",
+	"homepage": "https://github.com/wojciechwojciech",
+	"license":"Apache-2.0",
 	"copyright":"Copyright © 2018 WojtekWojtek",
   "description": "Aplikacja stworzona w oparciu o technologię ElectronJS (https://electronjs.org/)",
 	"scripts": {
@@ -18,7 +21,7 @@
 	},
 	"build": {
     "appId": "com.electron.kurier",
-    "icon": "img/icon.ico",
+		"icon": "img/icon.ico",
     "productName": "KurierSuchegoZartu",
     "asar":true,
 		"linux": {
