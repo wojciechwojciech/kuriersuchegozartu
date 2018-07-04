@@ -7,7 +7,6 @@ platform:
 productName: "KurierSuchegoZartu"
 appId: com.electron.kurier
 asar: true
-compression: maximum
 
 ##################
 cache:
