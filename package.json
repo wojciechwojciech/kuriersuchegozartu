@@ -11,6 +11,7 @@
 	"scripts": {
 		"release": "build"
 	},
+	
 	"repository": "https://github.com/wojciechwojciech/kuriersuchegozartu",
 	"devDependencies": {
     "electron": "^2.0.3",
@@ -24,14 +25,23 @@
 		"icon": "img/icon.ico",
     "productName": "KurierSuchegoZartu",
     "asar":true,
-		"linux": {
-			"target": [
-				"deb"
-			]
-		},
 		"publish": {
 			"provider": "github"
 		},
 		"remoteReleases": "https://github.com/wojciechwojciech/kuriersuchegozartu"
+	},
+	"dmg": {
+		"contents": [
+			{
+				"x": 110,
+				"y": 150
+			},
+			{
+				"x": 240,
+				"y": 150,
+				"type": "link",
+				"path": "/Applications"
+			}
+		]
 	}
 }
